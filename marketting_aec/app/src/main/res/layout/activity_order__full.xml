@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#eee"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:background="#f4b400"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Status :" />
+
+                <TextView
+                    android:id="@+id/estatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="New Order" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Dealer name :" />
+                    <TextView
+                        android:id="@+id/mdealer_name"
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+                        android:text="Dealer shop name" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Dealer shop name :" />
+                    <TextView
+                        android:id="@+id/mdealer_shop_name"
+                        android:layout_width="wrap_content"
+                        android:textColor="#000"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+
+                        android:text="Dealer shop name" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Dealer's address :" />
+
+                    <TextView
+                        android:id="@+id/mdealer_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+
+                        android:text="Dealer's address" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+
+                        android:text="Phone number :" />
+
+                    <TextView
+                        android:id="@+id/mdealer_primary_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+
+                        android:text="Primary Phone number " />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Rate/watt :" />
+                    <TextView
+                        android:id="@+id/mrate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Dealer Rate/watt" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="25 watt" />
+                    <TextView
+                        android:id="@+id/m25watt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+
+                        android:text="Al. Phone number" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="50watt"/>
+                    <TextView
+                        android:id="@+id/m50watt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textColor="#000"
+
+                        android:text="GSTIN"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="75 watt"/>
+
+                    <TextView
+                        android:id="@+id/m75watt"
+                        android:textColor="#000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Rating"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="100 watt" />
+                    <TextView
+                        android:id="@+id/m100watt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Dealer Rate/watt" />
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="150 watt" />
+                    <TextView
+                        android:id="@+id/m150watt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Dealer Rate/watt" />
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="200 watt" />
+                <TextView
+                    android:id="@+id/m200watt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:layout_margin="3dp"
+                    android:text="Dealer Rate/watt" />
+            </LinearLayout>
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="250 watt" />
+                    <TextView
+                        android:id="@+id/m250watt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Dealer Rate/watt" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Total amount :" />
+                    <TextView
+                        android:id="@+id/mtotal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="total" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Cash amount :" />
+                    <TextView
+                        android:id="@+id/mcash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Cash amount" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Credit_amount" />
+                    <TextView
+                        android:id="@+id/mcredit_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="credit_amount" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:text="Shipment :" />
+                    <TextView
+                        android:id="@+id/mshipment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:layout_margin="3dp"
+                        android:text="Shipment" />
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/edit_order"
+        android:layout_weight="1"
+        android:layout_above="@+id/add_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="edit_order"
+        android:text="Edit Order"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#f4b400"
+        android:layout_margin="5dp"
+        />
+
+
+    <Button
+        android:id="@+id/change_status"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="change_status"
+        android:text="Status"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/edit_shipment"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="shipdate"
+        android:text="Ship date"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+
+
+
+</LinearLayout>
+
+
+ />
+
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

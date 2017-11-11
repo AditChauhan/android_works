@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#eee"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        card_view:cardElevation="5dp"
+        card_view:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+          <LinearLayout
+              android:background="#f4b400"
+              android:layout_width="match_parent"
+              android:padding="5dp"
+              android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Dealer name :" />
+
+              <TextView
+                  android:id="@+id/mdealer_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:layout_margin="5dp"
+                  android:textStyle="bold"
+                  android:textColor="#000"
+                  android:text="Dealer name" />
+
+          </LinearLayout>
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            >
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Dealer shop name :" />
+            <TextView
+                android:id="@+id/mdealer_shop_name"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+
+                android:text="Dealer shop name" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Dealer's address :" />
+
+            <TextView
+                android:id="@+id/mdealer_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+
+                android:text="Dealer's address" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+
+                android:text="Phone number :" />
+
+            <TextView
+                android:id="@+id/mdealer_primary_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+
+                android:text="Primary Phone number " />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Alternate phone number :" />
+            <TextView
+                android:id="@+id/mdealer_alternate_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+
+                android:text="Al. Phone number" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="GSTIN :"/>
+            <TextView
+                android:id="@+id/mdealer_gstin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+
+                android:text="GSTIN"
+
+                />
+            </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Rating :"/>
+
+            <TextView
+                android:id="@+id/mdealer_rating"
+                android:textColor="#000"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Rating"
+                />
+            </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Dealer Rate/watt :" />
+            <TextView
+                android:id="@+id/mdealer_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+
+                android:layout_margin="3dp"
+                android:text="Dealer Rate/watt" />
+            </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/edit_order"
+        android:layout_above="@+id/add_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="edit_order"
+        android:text="Edit Dealer"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#f4b400"
+        android:layout_marginBottom="10dp"
+       />
+
+
+    <Button
+        android:id="@+id/add_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoorder"
+        android:text="Add Order"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

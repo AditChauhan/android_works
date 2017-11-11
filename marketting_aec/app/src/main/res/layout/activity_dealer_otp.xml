@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#dedede"
+            android:padding="15dp"
+            android:textStyle="bold"
+            android:text="Dealer OTP" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="#ededed"
+                    android:padding="15dp"
+                    android:text="Verify Dealer's phone number" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/code"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/eotp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:textAlignment="center"
+                        android:hint="Enter Code"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:padding="0dp"
+                        android:text="Didn't recieve the code ?  " />
+                    <TextView
+                        android:onClick="resendCode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:textStyle="bold"
+                        android:textColor="#F3475E"
+                        android:text="Re-send the code " />
+
+                </LinearLayout>
+
+                <Button
+                    android:textColor="#fff"
+                    android:onClick="verify"
+                    android:background="#F44336"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/bverify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign-in" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

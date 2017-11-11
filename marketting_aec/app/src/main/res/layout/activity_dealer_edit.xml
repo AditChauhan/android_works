@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.achauhan.marketting_aec.Add_Dealer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/dealer"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edealer_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Dealer's name "
+                            android:singleLine="true" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/dealer_shopname"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edealer_shopname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Dealer's shop name" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/dealer_address"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edealer_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Enter Dealer's address" />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/primary_phone_number"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/eprimary_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Primary Phone number"
+                            android:inputType="number" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/alternate_phone_number"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/ealternate_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:inputType="number"
+                            android:hint="Alternate phone number" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/dealer_gstin"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/edealer_gstin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:hint="Enter GST-IN" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/rate"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/erate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:singleLine="true"
+                            android:hint="Rate/Watt" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+
+                    <Button
+                        android:layout_margin="10dp"
+                        android:background="@color/colorAccent"
+                        android:id="@+id/bsubmit"
+                        android:textColor="#fff"
+                        android:onClick="edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

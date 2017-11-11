@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.achauhan.marketting_aec.Add_Dealer">
+    <LinearLayout
+
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+                   <LinearLayout
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/rate"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/erate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:hint="Rate/watt"
+                           />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t25watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:id="@+id/e25watt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="25 watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t50watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/e50watt"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="50 watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t75watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/e75watt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="75 watt panels"
+                            android:inputType="number" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t100watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:id="@+id/e100watt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:hint="100  watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t150watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/e150watt"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="150 watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t200watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/e200watt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:hint="200 watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/t250watt"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/e250watt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:hint="250 watt panels" />
+                    </android.support.design.widget.TextInputLayout>
+
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+                 <TextView
+                     android:id="@+id/total"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textSize="20sp"
+                     android:padding="10dp"
+                     android:textStyle="bold"
+                     android:background="#eee"
+                     android:text="Amount :"/>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/cash"
+                        android:padding="10dp"
+
+                        android:background="#eee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+
+                            android:id="@+id/ecash"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Cash Amount"
+                            android:inputType="number"
+                            android:maxLines="1"
+                    />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:background="#eee"
+                        android:padding="10dp"
+
+                        android:id="@+id/credit_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/ecredit_amount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Credit Amount"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                    </LinearLayout>
+                    </LinearLayout>
+                    <Button
+                        android:layout_marginTop="20dp"
+                        android:padding="20dp"
+                        android:background="@color/colorPrimary"
+                        android:id="@+id/bsubmit"
+                        android:textColor="#fff"
+                        android:onClick="get_Order"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit" />
+
+
+
+
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

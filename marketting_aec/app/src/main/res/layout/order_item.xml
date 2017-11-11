@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="4dp"
+        card_view:cardCornerRadius="3dp"
+>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <TextView
+            android:id="@+id/order_status"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:text="order_status" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+         <LinearLayout
+
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <TextView
+                android:id="@+id/counter"
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="No. " />
+
+            <TextView
+                android:gravity="end"
+                android:id="@+id/order_time"
+                android:textSize="12sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Order time : " />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:text="Dealer name : " />
+
+            <TextView
+                android:id="@+id/mdealer_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                android:textColor="#000"
+                android:text="Dealer name" />
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:textSize="16sp"
+                    android:textColor="#000"
+                    android:text="Dealers Address :" />
+            <TextView
+                android:textStyle="bold"
+
+                android:id="@+id/mdealer_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:text="Dealers Address" />
+
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="Total Amount : "
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+
+                <TextView
+                    android:textStyle="bold"
+
+                    android:id="@+id/ototal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Total amount "
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:text="Shipment by : "
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:textStyle="bold"
+
+                    android:id="@+id/shiping_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text="Estimated time for delivery: "
+                android:textColor="#000"
+                android:textSize="16sp" />
+</LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

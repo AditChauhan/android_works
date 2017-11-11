@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1075984281053",
+    "firebase_url": "https://markettingprofile.firebaseio.com",
+    "project_id": "markettingprofile",
+    "storage_bucket": "markettingprofile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075984281053:android:9749966c71384e7f",
+        "android_client_info": {
+          "package_name": "com.example.achauhan.marketting_aec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075984281053-nfdusf6lqo5b3vv1i8d8dp1unrts4p7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.achauhan.marketting_aec",
+            "certificate_hash": "a3e49ce86afacbad7fd88bd9747e2ec6a143b5ce"
+          }
+        },
+        {
+          "client_id": "1075984281053-l4h2e51uaer6tu00kq68h78kan32mr5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWbnsDJuDt_Xj00xVvDGP7NBAtbSRkR28"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075984281053-l4h2e51uaer6tu00kq68h78kan32mr5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
